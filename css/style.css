@@ -1,0 +1,201 @@
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* This file based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+
+/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+
+
+/* basic elements */
+html {
+	margin: 0;
+	padding: 0;
+	}
+body { 
+	font: url(https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap);
+	line-height: 1.88889;
+	color: teal; 
+	background: #fff url(file:///Users/codenationstudent/Downloads/Master14/zen-challenge/css/bamboo.png);
+	margin: -25px; 
+	padding: 0;
+	}
+
+p { 
+	margin-top: -5px; 
+	text-align: left;
+	line-height: 15pt;
+	width: 650px
+	}
+.benefits, .participation {
+	background: transparent;
+}
+h3 { 
+	font: 2.0em url(https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap);
+	letter-spacing: 2px; 
+	margin-bottom: 0; 
+	margin-top: 25px;
+	color: teal;
+	}
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: green;
+	}
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #D4CDDC;
+	}
+a:hover, a:focus, a:active { 
+	text-decoration: underline; 
+	color: #9685BA;
+	}
+abbr {
+	border-bottom: none;
+	}
+
+
+/* specific divs */
+.page-wrapper { 
+	background: white;
+	padding: 0 175px 0 110px;  
+	margin: 0; 
+	position: relative;
+	}
+
+.intro { 
+	min-width: 470px;
+	width: 100%;
+	}
+
+header h1 { 
+	font: url(https://fonts.google.com/specimen/Roboto?sidebar.open&selection.family=Roboto:wght@300);
+	color: wheat;
+	font-size: 25pt;
+	margin-top: 75px;
+	margin-bottom: 0;
+	width: 200px;
+	height: 87px;
+	text-indent: 100%;
+	white-space: nowrap;
+	}
+
+header h2 { 
+	font: url(https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap);
+	margin-top: -30px; 
+	margin-bottom: 40px; 
+	width: 200px; 
+	height: 18px;
+	text-indent: 100%;
+	white-space: nowrap;
+	}
+header {
+	padding-top: 0px;
+	height: 70px;
+}
+
+.summary {
+	clear: both; 
+	margin: 150px 20px 10px 10px;
+	width: 500px; 
+	text-align: center;
+	}
+.summary p {
+	font:1.1em/2.2 url(https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap); 
+	text-align: ltr;
+	color: teal;
+	background-color: #fff;
+	}
+
+.preamble {
+	clear: right; 
+	padding: 0px 10px 0 10px;
+	}
+.supporting {	
+	padding-left: 10px; 
+	margin-bottom: 40px;
+	}
+
+footer { 
+	text-align: center; 
+	}
+footer a:link, footer a:visited { 
+	margin-right: 20px; 
+	}
+
+.sidebar {
+	margin-left: 0; 
+	position: absolute;
+	top: 1750px;
+	right: 150px;
+	columns: 150px 2;
+	}
+.sidebar .wrapper { 
+	font: px georgia, sans-serif; 
+	background: transparent url() top left repeat-y; 
+	padding: 10px; 
+	margin-top: 150px; 
+	width: 250px;
+
+	}
+.sidebar h3.select { 
+	background: transparent url() no-repeat top left; 
+	margin: 10px 0 5px 0; 
+	width: 95px; 
+	height: 16px; 
+
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	}
+.sidebar h3.archives { 
+	background: transparent url() no-repeat top left; 
+	margin: 25px 0 5px 0; 
+	width:57px; 
+	height: 14px; 
+
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	}
+.sidebar h3.resources { 
+	background: transparent url() no-repeat top left; 
+	margin: 25px 0 5px 0; 
+	width:65px; 
+	height: 10px; 
+
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	}
+
+
+.sidebar ul {
+	margin: 0;
+	padding: 0;
+	}
+.sidebar li {
+	line-height: 1.3em; 
+	background: transparent url() no-repeat top center;
+	padding-top: 5px;
+	margin-bottom: 5px;
+	list-style-type: none;
+	}
+.sidebar li a:link {
+	color: black;
+	}
+.sidebar li a:visited {
+	color: black;
+	}
+
+
+.extra1 {
+	background: transparent url() top left no-repeat; 
+	position: absolute; 
+	top: 40px; 
+	right: 0; 
+	width: 148px; 
+	height: 110px;
+	}
